@@ -1,5 +1,4 @@
 package com.studfinemanagement;
-
 import java.time.LocalDate;
 import java.util.Scanner;
 
@@ -10,7 +9,7 @@ public class Main {
     public static void main(String[] args) {
 
         while (true) {
-            System.out.println("\n===== STUDENT FINE MANAGEMENT =====");
+            System.out.println("\n---STUDENT FINE MANAGEMENT---");
             System.out.println("1. Register");
             System.out.println("2. Login");
             System.out.println("3. Exit");
@@ -168,7 +167,6 @@ public class Main {
                     }
                     break;
 
-                // ✅ UPDATED BALANCE LOGIC
                 case 2:
                     int totalPaid = 0;
 
